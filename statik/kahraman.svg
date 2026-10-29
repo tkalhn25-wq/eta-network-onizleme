@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 460" role="img" aria-label="Kamera, kablosuz ağ, yangın algılama, anons ve kartlı geçiş cihazları bağlı bir bina çizimi">
+  <defs>
+    <linearGradient id="g-zemin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dbe6ff"/><stop offset="1" stop-color="#d4f6fb"/></linearGradient>
+    <linearGradient id="g-ana" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d5bff"/><stop offset="1" stop-color="#00b8d9"/></linearGradient>
+    <filter id="golge" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1d3f8f" flood-opacity=".16"/></filter>
+    <filter id="golge2" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#1d3f8f" flood-opacity=".18"/></filter>
+  </defs>
+  <path d="M60 210c0-110 90-180 210-180s250 50 250 170-70 230-240 230S60 330 60 210z" fill="url(#g-zemin)"/>
+  <circle cx="470" cy="70" r="18" fill="#ffd8cc"/><circle cx="92" cy="380" r="12" fill="#c9f3e9"/><circle cx="520" cy="300" r="8" fill="#e6dcff"/>
+
+  <!-- bina -->
+  <g filter="url(#golge)">
+    <path d="M150 110l130-58 130 58v278H150z" fill="#ffffff"/>
+  </g>
+  <path d="M150 110l130-58 130 58" fill="none" stroke="#c9d6f2" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M150 200h260M150 290h260" stroke="#e5ecfa" stroke-width="3"/>
+  <g fill="#eef3ff">
+    <rect x="176" y="128" width="40" height="52" rx="6"/><rect x="344" y="128" width="40" height="52" rx="6"/>
+    <rect x="176" y="218" width="40" height="52" rx="6"/><rect x="344" y="218" width="40" height="52" rx="6"/>
+    <rect x="176" y="308" width="40" height="52" rx="6"/>
+  </g>
+  <rect x="330" y="314" width="56" height="74" rx="6" fill="#e3ebff"/><circle cx="374" cy="352" r="3" fill="#9fb3e0"/>
+
+  <!-- kablolar -->
+  <g fill="none" stroke="url(#g-ana)" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 8">
+    <path d="M280 330V250M280 250H232V158M280 250h48v-92M280 250V170M260 330h-28v-50M300 330h28v-52"/>
+  </g>
+
+  <!-- kabinet -->
+  <g filter="url(#golge2)"><rect x="248" y="318" width="64" height="70" rx="8" fill="#13265a"/></g>
+  <g fill="#2c4a96"><rect x="258" y="330" width="44" height="8" rx="2"/><rect x="258" y="344" width="44" height="8" rx="2"/><rect x="258" y="358" width="44" height="8" rx="2"/></g>
+  <g fill="#3ddc97"><circle cx="296" cy="334" r="2"/><circle cx="296" cy="348" r="2"/><circle cx="296" cy="362" r="2"/></g>
+
+  <!-- cihaz rozetleri -->
+  <g filter="url(#golge2)">
+    <circle cx="232" cy="150" r="22" fill="#7b5cff"/>
+    <circle cx="328" cy="150" r="22" fill="#1d5bff"/>
+    <circle cx="280" cy="166" r="18" fill="#ff5a36"/>
+    <circle cx="232" cy="276" r="20" fill="#00a99d"/>
+    <circle cx="328" cy="276" r="20" fill="#ff9f1a"/>
+  </g>
+  <g fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M221 145l17-4 2 8-17 4zM240 146l5-2v7l-4-1M228 152l2 6"/>
+    <path d="M318 152a14 14 0 0120 0M322 156a8 8 0 0112 0"/><circle cx="328" cy="160" r="1.2" fill="#fff"/>
+    <path d="M280 175c-4 0-7-3-7-6.5 0-4 3.5-5.5 4.2-9.5 2.6 1.6 3.6 3.8 3.6 5.6 1-.6 1.6-1.6 1.8-2.8 2 1.8 4.4 4.3 4.4 6.8 0 3.5-3 6.4-7 6.4z"/>
+    <rect x="225" y="266" width="14" height="20" rx="2"/><path d="M229 271h6M229 281h6"/>
+    <path d="M319 273v6h4l6 4v-14l-6 4zM333 272a5 5 0 010 8"/>
+  </g>
+
+  <!-- durum kartları -->
+  <g filter="url(#golge)">
+    <rect x="388" y="84" width="150" height="54" rx="12" fill="#fff"/>
+    <rect x="22" y="196" width="150" height="54" rx="12" fill="#fff"/>
+    <rect x="392" y="322" width="150" height="54" rx="12" fill="#fff"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="400" y="96" width="30" height="30" rx="8" fill="#efeaff"/><circle cx="415" cy="111" r="6" fill="#7b5cff"/>
+    <text x="440" y="108" font-size="12" font-weight="700" fill="#13203b">Kamera sistemi</text>
+    <circle cx="444" cy="122" r="3.5" fill="#22c55e"/><text x="452" y="126" font-size="11" fill="#5b6b86">Çevrimiçi</text>
+
+    <rect x="34" y="208" width="30" height="30" rx="8" fill="#ffece7"/><circle cx="49" cy="223" r="6" fill="#ff5a36"/>
+    <text x="74" y="220" font-size="12" font-weight="700" fill="#13203b">Yangın paneli</text>
+    <circle cx="78" cy="234" r="3.5" fill="#22c55e"/><text x="86" y="238" font-size="11" fill="#5b6b86">Normal</text>
+
+    <rect x="404" y="334" width="30" height="30" rx="8" fill="#e2f7f5"/><circle cx="419" cy="349" r="6" fill="#00a99d"/>
+    <text x="444" y="346" font-size="12" font-weight="700" fill="#13203b">Kartlı geçiş</text>
+    <circle cx="448" cy="360" r="3.5" fill="#22c55e"/><text x="456" y="364" font-size="11" fill="#5b6b86">Aktif</text>
+  </g>
+  <g fill="none" stroke="#b9c8ea" stroke-width="2" stroke-dasharray="3 5"><path d="M388 112c-30 0-40 20-60 30M172 224c20 0 30 20 50 40M392 348c-30 0-50-30-64-60"/></g>
+</svg>
